@@ -1,2 +1,2 @@
 # AlphaTech-Bot
-python discord bot open source &lt;3
+change the token in bot.py and run start.bat
