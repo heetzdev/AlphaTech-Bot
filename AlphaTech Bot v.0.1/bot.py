@@ -75,7 +75,7 @@ async def mute(ctx, member: discord.Member, *, reason=None):
 @commands.has_permissions(manage_roles=True)
 async def tempmute(ctx, member: discord.Member, time: int, *, reason=None):
     if not ctx.guild.me.guild_permissions.manage_roles:
-        await ctx.send("❌ I don't have permission to modify roles.")
+        await ctx.send("I don't have permission to modify roles.")
         return
 
     mute_role = discord.utils.get(ctx.guild.roles, name="Muted")
