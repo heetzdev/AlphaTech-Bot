@@ -1,3 +1,6 @@
+# create by heetz for AlphaTech
+# v 0.1
+
 import discord
 import asyncio
 from discord.ext import commands
